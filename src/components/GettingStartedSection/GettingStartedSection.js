@@ -3,8 +3,8 @@ import React from 'react';
 function GettingStartedSection() {
   return (
     <div className="bg-black text-white flex items-center justify-center min-h-screen">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-12">Getting Started Is a Breeze</h1>
+      <div className="text-center px-4 sm:px-8">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12">Getting Started Is a Breeze</h1>
         <div className="space-y-12">
           <div>
             <div className="mb-4">
