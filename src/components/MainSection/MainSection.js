@@ -8,7 +8,9 @@ function MainSection() {
         <div className="lg:w-1/2">
           <h1 className="text-6xl font-bold leading-tight mb-6">Transforming Dental Care with AI</h1>
           <p className="text-lg mb-6">Welcome to Dental DiagnoBot, a revolution in dental care. Leveraging advanced AI, our chatbot simplifies consultation and diagnosis. You can even add your panoramic X-ray for a comprehensive diagnosis.</p>
-          <button className="bg-black text-white font-semibold py-2 px-4 rounded hover:bg-gray-800">Start Your Consultation</button>
+          <button className="bg-black text-white font-semibold py-2 px-4 rounded hover:bg-gray-800">
+  <a href="#iframe-block" className="text-white no-underline">Start Your Consultation</a>
+</button>
         </div>
         <div className="lg:w-1/2">
           <img alt="A panoramic dental X-ray showing upper and lower jaws with teeth" className="max-w-full h-auto" height="400" src="/xray1.jpg" width="600"/>
